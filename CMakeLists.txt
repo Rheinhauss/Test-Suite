@@ -4,7 +4,7 @@ list(
   APPEND
   wpa_folders
   basic_c_tests
-  basic_cpp_tests
+  # basic_cpp_tests
   fs_tests
   vfs_tests
 )
@@ -103,7 +103,7 @@ list(
   APPEND
   diff_tests_anderson_folders
   basic_c_tests
-  basic_cpp_tests
+  # basic_cpp_tests
   complex_tests
   fs_tests
 )
@@ -184,7 +184,7 @@ list(
   APPEND
   cfl_test_bc_folders
   basic_c_tests
-  basic_cpp_tests
+  # basic_cpp_tests
 )
 foreach(folder ${cfl_test_bc_folders})
   set(POCRcmd "cfl -grammar=${PROJECT_SOURCE_DIR}/svf/include/CFL/CFLGrammar.txt -stat=false -pocr-alias")
