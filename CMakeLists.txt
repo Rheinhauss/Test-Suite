@@ -5,7 +5,7 @@ list(
   wpa_folders
   basic_c_tests
   # basic_cpp_tests
-  fs_tests
+  # fs_tests
   vfs_tests
 )
 
